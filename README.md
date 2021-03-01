@@ -3,17 +3,17 @@
 
 Through this ETL project out group primarily wanted to investigate the potential trends and variations of the crime rate throughout the UK, Canada and Australia. We want to be able to shape the data in such a way as to enrich people’s knowledge regarding crimes in both their home country and other countries throughout the world. Furthermore, if explored further the data we have extracted could reveal strategies to reduce crime in other cities by delving into the laws and regualtions of the country who has the least amount of crime. 
 
-The data is located on the following websites: 
+*The data is located on the following websites: 
 -	http://www.data.gov.au
 -	http://www.ons/gov.uk
 -	http://www150.statcan.gc.ca
 
-What are the data set formats?
+*What are the data set formats?
 -	Web scraping (HTML)
 -	API (JSON)
 -	CSV
 
-How will you get this data? (e.g. API, scraped data, download data)
+*How will you get this data? (e.g. API, scraped data, download data)
 -	Web scraping
 -	API request
 -	Downloading the .csv file

@@ -1,8 +1,8 @@
 # ETL-Project
 Project overview: 
-	What is your question of interest?
--	How does the crime rate vary throughout the UK, Canada and Australia?
-	What is the expected outcome of your ETL project? (i.e. how will this data ETL project add value?) Think about how your ETL project will enrich the data and how this data might create value.
+Through this ETL project out group primarily wanted to investigate the potential trends and variations of the crime rate throughout the UK, Canada and Australia. We want to be able to shape the data in such a way as to enrich people’s knowledge regarding crimes in both their home country and other countries throughout the world. Furthermore, if explored further the data we have extracted could reveal strategies to reduce crime in other cities by delving into the laws and regualtions of the country who has the least amount of crime. 
+
+What is the expected outcome of your ETL project? (i.e. how will this data ETL project add value?) Think about how your ETL project will enrich the data and how this data might create value.
 -	The expected outcome of this project is to enrich people’s knowledge about the number of different types and amounts of crimes committed in 3 different continents / countries.
 -	This will benefit people.
 -	This could reveal strategies to reduce crime in other cities by investigating further the country who has the least amount of crime.

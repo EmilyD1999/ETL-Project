@@ -3,32 +3,28 @@ Project overview:
 
 Through this ETL project out group primarily wanted to investigate the potential trends and variations of the crime rate throughout the UK, Canada and Australia. We want to be able to shape the data in such a way as to enrich people’s knowledge regarding crimes in both their home country and other countries throughout the world. Furthermore, if explored further the data we have extracted could reveal strategies to reduce crime in other cities by delving into the laws and regualtions of the country who has the least amount of crime. 
 
-What is the expected outcome of your ETL project? (i.e. how will this data ETL project add value?) Think about how your ETL project will enrich the data and how this data might create value.
--	The expected outcome of this project is to enrich people’s knowledge about the number of different types and amounts of crimes committed in 3 different continents / countries.
--	This will benefit people.
--	This could reveal strategies to reduce crime in other cities by investigating further the country who has the least amount of crime.
-
-EXTRACT - Proposed data sources (minimum two data sources):
-	Where is the data located?
-On the following websites:
+The data is located on the following websites: 
 -	http://www.data.gov.au
 -	http://www.ons/gov.uk
 -	http://www150.statcan.gc.ca
-	What are the data set formats?
+
+What are the data set formats?
 -	Web scraping (HTML)
 -	API (JSON)
 -	CSV
-	How will you get this data? (e.g. API, scraped data, download data)
+
+How will you get this data? (e.g. API, scraped data, download data)
 -	Web scraping
 -	API request
 -	Downloading the .csv file
-	What are your assumptions about the data? What does it cover? What is it missing?
+ 
+Our assumptions about the data: 
 -	We assume the data is representative of the general population and is complete.
--	CSV data doesn’t go into great detail about the type of crime’s that have been committed.
--	It covers the crimes committed over a certain timeline 
+-	The data sets cover the crimes committed over a certain timeline in three different places in the world
+-	The CSV data may be missing some details as it doesn’t go into great detail about the type of crime’s that have been committed.
 
-TRANSFORM - Proposed clean-up and analysis:
-	What are the transformations you will apply to the data? (e.g. filtering, aggregation, derived columns)
+Proposed clean-up and analysis:
+What are the transformations you will apply to the data? (e.g. filtering, aggregation, derived columns)
 -	Filter
 -	Convert English data to 100,000 to match corresponding data sets (Normalise)
 -	What steps will you take to clean the data and ensure its validity (e.g. messy data, duplicated data, incorrectly formatted data)
@@ -37,16 +33,16 @@ TRANSFORM - Proposed clean-up and analysis:
 -	Group Australian data by month or, get total count for each month
 -	Single offences -> count of offences
 
-	How will you identify potential issues with your data sources? (e.g. exploratory data analysis, simple statistics etc)
+How will you identify potential issues with your data sources? (e.g. exploratory data analysis, simple statistics etc)
 -	Outliers
 -	Null values
-	How will the data be integrated? (e.g. joins, merges)
+How will the data be integrated? (e.g. joins, merges)
 -	Join data sets into same table for comparisons. 
-	How will you apply these transformations (e.g. Jupyter notebook, Python script)
+How will you apply these transformations (e.g. Jupyter notebook, Python script)
 -	Requests module to transform API (Request API to obtain web data).
 -	HTML to transform scrapped data. (bs4 to pass and transform data).
 -	Pandas to transform CSV.
-	IMPORTANT → Why did you apply these transformations? How did this enrich your data?
+IMPORTANT → Why did you apply these transformations? How did this enrich your data?
 -	To integrate 3 different data sources. 
 
 LOAD - Data storage

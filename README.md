@@ -2,7 +2,7 @@
 
 Project overview
 
-Through this ETL project out group primarily wanted to investigate the potential trends and variations of the crime rate throughout the UK, Canada, Australia and America. We wanted to be able to shape the data in such a way as to enrich people’s knowledge regarding crimes in many different countries throughout the world. We wanted to specifiaclly focuses on Western countries who have similar roots to their justice systems- which is why we focused on three past Brittish colonies and Brittain itself. Furthermore, if explored further the data we have extracted could reveal strategies to reduce crime in other cities by delving into the laws and regualtions of the country who has the least amount of crime. 
+Through this ETL project our group primarily wanted to investigate the potential trends and variations of the crime rate throughout the UK, Canada, Australia and America. We wanted to be able to shape the data in such a way as to enrich people’s knowledge regarding crimes in many different countries throughout the world. We wanted to specifiaclly focuses on Western countries who have similar roots to their justice systems- which is why we focused on three past Brittish colonies and Brittain itself. Furthermore, if explored further the data we have extracted could reveal strategies to reduce crime in other cities by delving into the laws and regualtions of the country who has the least amount of crime. 
 
 The data is located on the following websites: 
 - http://www.disastercenter.com/crime/uscrime.htm
